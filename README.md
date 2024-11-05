@@ -16,6 +16,13 @@ docker run -dit --network=host --name arachni -p 9292:9292 docker-arachni bin/ar
 docker run -it --network=host --rm --name arachni_web arachni
 ```
 
+## Access with web browser ##
+https://<ip_address_server>:9292
+
+## Log in access ##
+Username : admin@admin.admin
+Password : administrator
+
 See the [Arachni Wiki](https://github.com/Arachni/arachni/wiki) and [Arachni Web Wiki](https://github.com/Arachni/arachni-ui-web/wiki) for more information.
 
 There are also systemd/fleet service files under units/.
