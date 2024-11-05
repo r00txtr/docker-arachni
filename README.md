@@ -8,7 +8,7 @@
 ```bash
 docker-compose up -d web
 or
-docker run -d --name arachni -p 9292:9292 ahannigan/docker-arachni bin/arachni_web -o 0.0.0.0
+docker run -dit --network=host --name arachni -p 9292:9292 docker-arachni bin/arachni_web -o 0.0.0.0
 ```
 
 - Drop in to a bash shell in arachni folder
