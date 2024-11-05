@@ -24,7 +24,7 @@ There are also systemd/fleet service files under units/.
 
 Override default Framework and WebUI version in Dockerfile:
 ```bash
-docker build --build-arg VERSION=1.2.1 --build-arg WEB_VERSION=0.5.7.1 -t arachni .
+docker build --build-arg VERSION=1.6.1.3 --build-arg WEB_VERSION=0.6.1.1 -t arachni .
 ```
 
 Default version set in Dockerfile:
