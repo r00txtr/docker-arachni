@@ -13,7 +13,7 @@ docker run -d --name arachni -p 9292:9292 ahannigan/docker-arachni bin/arachni_w
 
 - Drop in to a bash shell in arachni folder
 ```bash
-docker run -it --rm ahannigan/docker-arachni
+docker run -it --network=host --rm --name arachni_web arachni
 ```
 
 See the [Arachni Wiki](https://github.com/Arachni/arachni/wiki) and [Arachni Web Wiki](https://github.com/Arachni/arachni-ui-web/wiki) for more information.
